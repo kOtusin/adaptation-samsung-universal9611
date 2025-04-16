@@ -1,0 +1,19 @@
+Source: adaptation-samsung-universal9611
+Maintainer: kOtusin <sejreg2@gmail.com>
+Section: metapackages
+Priority: optional
+Build-Depends: debhelper (>= 10),
+               debhelper-compat (= 13),
+Standards-Version: 4.5.0.3
+
+Package: adaptation-samsung-universal9611
+Architecture: arm64
+Depends: ${misc:Depends},
+         adaptation-hybris-api32-phone,
+         adaptation-samsung-universal9611-configs (= ${binary:Version}),
+Description: Community adaptation for samsung-universal9611 - metapackage
+
+Package: adaptation-samsung-universal9611-configs
+Architecture: arm64
+Depends: ${misc:Depends},
+Description: Community adaptation for samsung-universal9611 - adaptation configurations

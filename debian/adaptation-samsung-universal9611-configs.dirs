@@ -1,0 +1,9 @@
+/etc/apt/sources.list.d
+/etc/apt/preferences.d
+/etc/apt/package-sideload-create.d
+/etc/apt/trusted.gpg.d
+/etc/systemd/system
+/etc
+/etc/udev/rules.d
+/usr/share/keyrings
+/usr/lib/droid-system-overlay/etc/init

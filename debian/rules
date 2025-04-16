@@ -1,0 +1,7 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+	
+override_dh_installsystemd:
+	dh_installsystemd -padaptation-samsung-universal9611-configs --name=samsung-hwc samsung-hwc.service --no-start
